@@ -1,0 +1,39 @@
+.div-data{
+    background-color: darkgrey;
+    height: 600;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.div-data img {
+    height: auto;
+    width: auto;
+}
+
+.div-data h1 {
+    color :blue ;
+}
+
+.div-data p {
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .div-data h1 {
+    color :rgb(255, 25, 0) ;
+}
+
+.div-data img {
+    height: 100px;
+    width: 100px;
+}
+
+}
